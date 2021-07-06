@@ -1,0 +1,11 @@
+
+#root {
+    height:100vh
+}
+
+footer  {
+    position: fixed;
+    width: 100%;
+    padding: 3em;
+    bottom: 0px;
+}

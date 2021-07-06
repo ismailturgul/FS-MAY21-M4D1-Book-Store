@@ -1,17 +1,25 @@
 import {Card} from "react-bootstrap";
+import history from "./data/history.json"
+class NewRelease extends Component {
 
-const MyCard = () => (
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+
+const Release =() =>(
+render(){
+    return(
+        <container fluid>
+        <h2>Books</h2>
+        <row>{
+            items.map(item =>(
+              <Card style={{ width: '18rem' }}>
+             <Card.Img variant="top" src="item.img" />
+             <Card.Body>
+               <Card.Title>Card Title</Card.Title>
+               <Card.Text> item.price
+               </Card.Text>
+             </Card.Body>
+            </Card>
+            )
+        </row>
+        </container>})
+})
 )
-
-export default MyCard

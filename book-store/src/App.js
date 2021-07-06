@@ -1,14 +1,15 @@
 //import './App.css'
-import MyJumbotron from './Jumbotron'
-import MyNavBar from './MyNavBar'
+import MyJumbotron from './component/Jumbotron'
+import MyNavBar from './component/MyNavBar'
+import MyFooter from './MyFooter'
+
 function App() {
   return (
-    <>
-      {/* this is a react fragment, just a wrapper because every component
-    MUST return a single JSX element */}
+    <div>
       <MyNavBar title="Easy-Book-Store" />
       <MyJumbotron />
-    </>
+      <MyFooter />
+    </div>
   )
 }
 
