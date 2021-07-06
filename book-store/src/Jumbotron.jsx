@@ -1,13 +1,10 @@
-import Jumbotron from "react-bootstrap"
+import {Jumbotron} from "react-bootstrap"
 
 const MyJumbotron = () => (
-<Jumbotron>
+<Jumbotron classname="img">
   <h1>Hello Strive-School!</h1>
   <p>
     Welcome to the Isi-est Book Store ever.
-  </p>
-  <p>
-    <Button variant="primary">Learn more</Button>
   </p>
 </Jumbotron>
 )
