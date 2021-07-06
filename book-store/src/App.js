@@ -1,7 +1,6 @@
 //import './App.css'
 import MyJumbotron from './Jumbotron'
 import MyNavBar from './MyNavBar'
-
 function App() {
   return (
     <>
