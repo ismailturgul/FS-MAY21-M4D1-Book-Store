@@ -1,11 +1,12 @@
 //import './App.css'
-import MyNavBar from './components/MyNavBar'
+import MyNavBar from './MyNavBar'
+
 function App() {
   return (
     <>
       {/* this is a react fragment, just a wrapper because every component
     MUST return a single JSX element */}
-      <MyNavBar title="Strivestaurant" />
+      <MyNavBar title="Easy-Book-Store" />
     </>
   )
 }
